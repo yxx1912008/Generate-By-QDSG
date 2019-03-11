@@ -1,0 +1,18 @@
+generate:
+  tableNames: his_diagnose
+  globalConfig:
+    outputDir: D://CodeAutoGenerate//
+    author: yuanxx
+  datasource:
+    url: jdbc:mysql://47.98.117.76:3306/ylt_eye_v2?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
+    username: root
+    password: root
+    driverName: com.mysql.jdbc.Driver
+  packageConfig:
+    parent: com.qdsg.ylt
+    controller: controller
+    service: service
+    serviceImpl: service.impl
+    entity: entity
+    mapper: mapper
+    xml: mapper.mapping

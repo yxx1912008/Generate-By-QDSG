@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.qdsg.ylt.generate.config.CodeGenerateConfig
